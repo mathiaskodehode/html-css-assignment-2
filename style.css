@@ -22,17 +22,17 @@
     height: 400px;
 }
 
-.container .sedan {
+.container> :nth-child(1) {
     background-color: hsl(31, 77%, 52%);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
-.container .suv {
+.container> :nth-child(2) {
     background-color: hsl(184, 100%, 22%);
 }
 
-.container .luxary {
+.container> :nth-child(3) {
     background-color: hsl(179, 100%, 13%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -73,7 +73,8 @@
     border-radius: 20px;
 }
 
-.container p, button {
+.container p,
+button {
     font-family: Lexend Deca;
     font-size: 15px;
     font-weight: 400;
